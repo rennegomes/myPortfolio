@@ -1,5 +1,5 @@
-import Inicio from "./pages/inicio";
 import Menu from "./components/menu";
+import MostraPaginas from "./components/mostraPaginas";
 import Perfil from "./components/perfil";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
           <Perfil />
         </div>
         <div className="bg-zinc-900">
-          <Inicio />
+          <MostraPaginas />
         </div>
       </div>
     </div>
