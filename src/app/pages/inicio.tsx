@@ -1,5 +1,5 @@
-import { PencilSimple } from "@phosphor-icons/react/dist/ssr";
 import GuiaPaginas from "../components/guiaPaginas";
+import QuadroProjetos from "../components/quadroProjetos";
 
 export default function Inicio(){
     return(
@@ -13,13 +13,7 @@ export default function Inicio(){
                 </div>
                 <div className="text-xl">
                     <strong>Destaque recente</strong>
-                    <div className="relative my-3 max-w-98 z-0 cursor-pointer">
-                        <img className=" rounded-lg border-5 w-full max-h-60 border-[#D8FA00] object-cover" src="https://github.com/rennegomes.png" alt="" />
-                        <div className="absolute bottom-0 bg-zinc-950 w-full rounded-b-md p-2 text-sm">
-                            <strong className="text-lg">Projeto X</strong>
-                            <p>Descrição Projeto X</p>
-                        </div>
-                    </div>
+                    <QuadroProjetos titulo="Projeto X" descricao="Descrição Projeto X" imagem="https://github.com/rennegomes.png"/>
                 </div>
 
                 <GuiaPaginas titulo="Projetos" icone="PencilSimple" subTitulo="Clique aqui e conheça meus projetos" fraseDoBotao="Conheça meus projetos"/>
