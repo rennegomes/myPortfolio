@@ -1,6 +1,10 @@
-import { Pencil, User, Stack, LinkedinLogo, GithubLogo, File, Share } from "@phosphor-icons/react/dist/ssr";
+"use client"
+import { LinkedinLogo, GithubLogo, File, Share } from "@phosphor-icons/react/dist/ssr";
+
+
 
 export default function Perfil(){
+
     return(
         <div className="bg-zinc-950 rounded-xl text-zinc-300 max-lg:m-4 lg:w-[350px] lg:fixed lg:inset-5 lg:top-0 lg:mt-20">
 
@@ -14,7 +18,7 @@ export default function Perfil(){
                     </div>
                 </div>
             </div>
-            <div className=" max-lg:hidden">
+            <div className="max-lg:hidden">
                 <div className="flex flex-col gap-1 mx-4 py-3 border-t border-zinc-700">
                     <strong className="text-zinc-200">Contatos</strong>
                     <div className="flex flex-col gap-2">
