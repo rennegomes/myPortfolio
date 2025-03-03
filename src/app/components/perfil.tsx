@@ -18,27 +18,33 @@ export default function Perfil(){
                 <div className="flex flex-col gap-1 mx-4 py-3 border-t border-zinc-700">
                     <strong className="text-zinc-200">Contatos</strong>
                     <div className="flex flex-col gap-2">
-                        <div className="flex flex-row gap-2 items-center rounded-lg p-2 cursor-pointer text-sm transition-colors duration-200 hover:bg-zinc-50 hover:text-zinc-900">
-                            <LinkedinLogo size={20} />
-                            <p>LinkedIn</p>
-                            <div className="flex flex-1/3 justify-end">
-                                <Share size={12} className="" />
-                            </div>
-                        </div>
-                        <div className="flex flex-row gap-2 items-center rounded-lg p-2 cursor-pointer text-sm transition-colors duration-200 hover:bg-zinc-50 hover:text-zinc-900">
-                            <GithubLogo size={20} />
-                            <p>GitHub</p>
-                            <div className="flex flex-1/3 justify-end">
-                                <Share size={12} className="" />
-                            </div>
-                        </div>
-                        <div className="flex flex-row gap-2 items-center rounded-lg p-2 cursor-pointer text-sm transition-colors duration-200 hover:bg-zinc-50 hover:text-zinc-900">
-                            <File size={20} />
-                            <p>Currículo</p>
-                            <div className="flex flex-1/3 justify-end">
-                                <Share size={12} className="" />
-                            </div>
-                        </div>
+                        <a href="https://www.linkedin.com/in/rene-gomes/" target="_blank">
+                            <button className="flex flex-row w-full gap-2 items-center rounded-lg p-2 cursor-pointer text-sm transition-colors duration-200 hover:bg-zinc-50 hover:text-zinc-900">
+                                    <LinkedinLogo size={20} />
+                                    <p>LinkedIn</p>
+                                    <div className="flex flex-1/3 justify-end">
+                                        <Share size={12} className="" />
+                                    </div>
+                            </button>
+                        </a>
+                        <a href="https://github.com/rennegomes" target="_blank">
+                            <button className="flex flex-row w-full gap-2 items-center rounded-lg p-2 cursor-pointer text-sm transition-colors duration-200 hover:bg-zinc-50 hover:text-zinc-900">
+                                    <GithubLogo size={20} />
+                                    <p>GitHub</p>
+                                    <div className="flex flex-1/3 justify-end">
+                                        <Share size={12} className="" />
+                                    </div>
+                            </button>
+                        </a>
+                        <a href="#" target="_blank">
+                            <button className="flex flex-row w-full gap-2 items-center rounded-lg p-2 cursor-pointer text-sm transition-colors duration-200 hover:bg-zinc-50 hover:text-zinc-900">
+                                    <File size={20} />
+                                    <p>Currículo</p>
+                                    <div className="flex flex-1/3 justify-end">
+                                        <Share size={12} className="" />
+                                    </div>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import Inicio from "./components/inicio";
+import Inicio from "./pages/inicio";
 import Menu from "./components/menu";
 import Perfil from "./components/perfil";
 

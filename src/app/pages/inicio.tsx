@@ -2,7 +2,7 @@ import { PencilSimple } from "@phosphor-icons/react/dist/ssr";
 
 export default function Inicio(){
     return(
-        <div className="flex lg:h-screen p-3 lg:mr-10 rounded-xl max-lg:m-4 max-lg:mb-14 overflow-hidden">
+        <div className="flex lg:m-20 rounded-xl max-lg:m-4 max-lg:mb-14 overflow-hidden">
             <div className="max-w-[800px] m-auto text-zinc-50">
                 <div className="lg:text-3xl text-xl text-start border-b-4 border-[#D8FA00]/70 py-5">
                     <h1>Transformando ideias em <strong className="text-[#D8FA00]">interfaces intuitivas</strong><br /> e experiências envolventes</h1>
@@ -12,7 +12,7 @@ export default function Inicio(){
                 </div>
                 <div className="text-xl">
                     <strong>Destaque recente</strong>
-                    <div className="relative my-3 max-w-98 z-0">
+                    <div className="relative my-3 max-w-98 z-0 cursor-pointer">
                         <img className=" rounded-lg border-5 w-full max-h-60 border-[#D8FA00] object-cover" src="https://github.com/rennegomes.png" alt="" />
                         <div className="absolute bottom-0 bg-zinc-950 w-full rounded-b-md p-2 text-sm">
                             <strong className="text-lg">Projeto X</strong>
@@ -30,9 +30,9 @@ export default function Inicio(){
                         </div>
                         <p className="text-[1rem]">Clique aqui e conheça meus projetos</p>
                     </div>
-                    <div className="flex justify-center bg-zinc-50 w-50 rounded-lg mt-8">
+                    <button className="flex justify-center bg-zinc-50 w-50 rounded-lg mt-8 cursor-pointer">
                         <h1 className="text-sm my-3.5 font-bold">Conheça meus projetos</h1>
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
