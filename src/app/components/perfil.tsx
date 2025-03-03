@@ -6,7 +6,7 @@ import { LinkedinLogo, GithubLogo, File, Share } from "@phosphor-icons/react/dis
 export default function Perfil(){
 
     return(
-        <div className="bg-zinc-950 rounded-xl text-zinc-300 max-lg:m-4 lg:w-[350px] lg:fixed lg:inset-5 lg:top-0 lg:mt-20">
+        <div className="bg-zinc-950 rounded-xl text-zinc-300 max-lg:m-4 lg:w-[350px] lg:fixed lg:inset-5 lg:top-0 lg:mt-20 max-lg:hidden">
 
             <div className="flex flex-row items-center gap-4 p-5">
                 <img className="max-w-24 rounded-lg border-5 border-[#D8FA00] " src="https://github.com/rennegomes.png" alt="Foto de perfil" />
@@ -18,7 +18,7 @@ export default function Perfil(){
                     </div>
                 </div>
             </div>
-            <div className="max-lg:hidden">
+            <div className="">
                 <div className="flex flex-col gap-1 mx-4 py-3 border-t border-zinc-700">
                     <strong className="text-zinc-200">Contatos</strong>
                     <div className="flex flex-col gap-2">
