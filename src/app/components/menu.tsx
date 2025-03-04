@@ -25,7 +25,7 @@ export default function Menu() {
                     <Link href="/" className={linkClasses("/")}>Inicio</Link>
                     <Link href="/projetos" className={linkClasses("/projetos")}>Projetos</Link>
                     <Link href="/stack" className={linkClasses("/stack")}>Stack's</Link>
-                    <Link href="/sobreMim" className={linkClasses("/sobreMim")}>Sobre mim</Link>
+                    <Link href="/sobre" className={linkClasses("/sobre")}>Sobre mim</Link>
                     <Link href="/contato" className={linkClasses("/contato")}>Contato</Link>
                 </div>
             </div>
@@ -40,7 +40,7 @@ export default function Menu() {
                     <Link href="/stack" className={linkClasses("/stack")} title="Stack">
                         <Stack size={20}/>
                     </Link>
-                    <Link href="/sobreMim" className={linkClasses("/sobreMim")} title="Sobre mim">
+                    <Link href="/sobre" className={linkClasses("/sobre")} title="Sobre mim">
                         <User size={20}/>
                     </Link>
                     <Link href="/contato" className={linkClasses("/contato")} title="Contato">

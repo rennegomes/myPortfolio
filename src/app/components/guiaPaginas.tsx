@@ -1,10 +1,12 @@
 import { House, PencilSimple, Stack, User, PaperPlaneTilt } from "@phosphor-icons/react/dist/ssr";
+import Link from "next/link";
 
 interface GuiaPaginasProps {
     titulo: string,
     icone: "House" | "PencilSimple" | "Stack" | "User" | "PaperPlaneTilt",
     subTitulo: string,
-    fraseDoBotao: string
+    fraseDoBotao: string,
+    rota: string
 }
 
 const iconeMap = {
@@ -31,7 +33,7 @@ export default function GuiaPaginas(props: GuiaPaginasProps){
             <p className="text-[1rem]">{props.subTitulo}</p>
         </div>
         <button className="flex justify-center bg-zinc-50 w-50 rounded-lg mt-8 cursor-pointer">
-            <h1 className="text-sm my-3.5 font-bold">{props.fraseDoBotao}</h1>
+            <Link href={props.rota} className="text-sm my-3.5 font-bold">{props.fraseDoBotao}</Link>
         </button>
     </div>
     )

@@ -3,11 +3,11 @@ import QuadroProjetos from "../components/quadroProjetos";
 
 export default function Inicio(){
     return(
-        <div className="flex lg:m-20 rounded-xl max-lg:m-4 max-lg:mb-14">
+        <div className="flex lg:mt-20 lg:mb-5 lg:mx-5 rounded-xl max-lg:m-4 max-lg:mb-14">
 
             <div className="max-w-[800px] m-auto w-full text-zinc-50  py-5">
-                <div className="bg-zinc-950 rounded-xl text-zinc-300 mb-5">
-                    <div className="lg:hidden flex flex-row items-center gap-4 p-5">
+                <div className="lg:hidden lg:h-0 bg-zinc-950 rounded-xl text-zinc-300 mb-5">
+                    <div className=" flex flex-row items-center gap-4 p-5">
                         <img className="max-w-24 rounded-lg border-5 border-[#D8FA00] " src="https://github.com/rennegomes.png" alt="Foto de perfil" />
                         <div className="flex flex-col items-start w-full">
                             <h1 className="text-xl font-extrabold text-white">Renê Gomes</h1>
@@ -30,7 +30,7 @@ export default function Inicio(){
                     <QuadroProjetos titulo="Projeto X" descricao="Descrição Projeto X" imagem="https://github.com/rennegomes.png"/>
                 </div>
 
-                <GuiaPaginas titulo="Projetos" icone="PencilSimple" subTitulo="Clique aqui e conheça meus projetos" fraseDoBotao="Conheça meus projetos"/>
+                <GuiaPaginas titulo="Projetos" icone="PencilSimple" subTitulo="Clique aqui e conheça meus projetos" fraseDoBotao="Conheça meus projetos" rota="/projetos"/>
                 
             </div>
         </div>
