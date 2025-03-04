@@ -1,4 +1,5 @@
 import GuiaPaginas from "../components/guiaPaginas";
+import Listagem from "../components/listagem";
 
 export default function Stack(){
     return(
@@ -7,8 +8,10 @@ export default function Stack(){
 
                 <strong className="text-3xl">Stack's</strong>
                 <p className="text-zinc-400">Lista das minhas habilidades:</p>
+
+                <Listagem />
                 
-                <GuiaPaginas titulo="Stack's" icone="Stack" subTitulo="Clique aqui e conheça minhas stack's" fraseDoBotao="Conheça minha stack's" rota="/stack"/>
+                <GuiaPaginas titulo="Sobre mim" icone="User" subTitulo="Clique aqui e conheça mais sobre mim" fraseDoBotao="Conheça mais sobre mim" rota="/sobre"/>
             </div>
         </div>
     )
