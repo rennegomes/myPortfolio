@@ -45,7 +45,7 @@ export default function Contato(){
                                 </div>
                         </button>
                     </a>
-                    <a href="mailto:renne.lace082@gemail.com" target="_blank">
+                    <a href="mailto:renne.lace082@gmail.com" target="_blank">
                         <button className="flex flex-row w-full bg-zinc-950 gap-2 items-center rounded-lg p-2 cursor-pointer text-sm transition-colors duration-200 hover:bg-zinc-700">
                                 <div className="bg-[#D8FA00] text-zinc-950 p-1 rounded-lg">
                                     <EnvelopeSimple size={50} />
