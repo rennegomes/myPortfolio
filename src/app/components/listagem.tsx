@@ -10,7 +10,7 @@ export default function Listagem(){
                             <img className="max-w-10 max-h-10 rounded-lg" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="" />
                             <div>
                                 <strong>Next.js</strong>
-                                <p className="text-xs font-light">Freamework Reack com maior poder de performace</p>
+                                <p className="text-xs font-light">Framework React com maior poder de performance</p>
                             </div>
                         </div>
                     </div>
