@@ -9,7 +9,7 @@ export default function Sobre(){
                 <strong className="text-3xl">Sobre mim</strong>
                 <p className="text-zinc-400 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est perspiciatis, ad laboriosam ab incidunt nemo sunt eos iure velit tempora commodi quasi porro nostrum quia maxime. Veritatis dolore rerum officiis!</p>
 
-                <div className="bg-zinc-800 p-5 mt-5 rounded-xl">
+                <div className="bg-zinc-950 p-5 mt-5 rounded-xl">
                     <div className="bg-[#D8FA00] p-2 rounded-lg text-xl">
                         <strong className="text-zinc-800">Tecnólogo em Análise e Desenvolvimento de Sistemas</strong>
                     </div>
@@ -21,11 +21,11 @@ export default function Sobre(){
                 </div>
                 
                 <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-5">
-                    <div className="bg-zinc-800 p-5 mt-5 rounded-lg">
+                    <div className="bg-zinc-950 p-5 mt-5 rounded-lg">
                         <h1 className="font-semibold my-2">Habilidades</h1>
                         <p className="text-sm text-zinc-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo voluptates, deserunt eaque maiores porro eligendi doloribus animi possimus consectetur quisquam, aliquam mollitia tempora commodi ab ex, alias ad accusamus aliquid.</p>
                     </div>
-                    <div className="bg-zinc-800 p-5 mt-5 rounded-lg">
+                    <div className="bg-zinc-950 p-5 mt-5 rounded-lg">
                         <h1 className="font-semibold my-2">Habilidades</h1>
                         <p className="text-sm text-zinc-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo voluptates, deserunt eaque maiores porro eligendi doloribus animi possimus consectetur quisquam, aliquam mollitia tempora commodi ab ex, alias ad accusamus aliquid.</p>
                     </div>
