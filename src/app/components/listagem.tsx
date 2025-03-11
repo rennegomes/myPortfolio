@@ -28,6 +28,16 @@ export default function Listagem(){
 
                         <div className="bg-zinc-800 p-5 rounded-lg hover:bg-[#D8FA00] hover:text-zinc-900 transition-colors duration-200">
                             <div className="flex items-center gap-5">
+                                <img className="max-w-10 max-h-10 rounded-lg" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="" />
+                                <div>
+                                    <strong>Vue.js</strong>
+                                    <p className="text-xs font-light">Vue.js é um framework JavaScript para criação de interfaces de utilizador para aplicações web.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bg-zinc-800 p-5 rounded-lg hover:bg-[#D8FA00] hover:text-zinc-900 transition-colors duration-200">
+                            <div className="flex items-center gap-5">
                                 <img className="max-w-10 max-h-10 rounded-lg" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="" />
                                 <div>
                                     <strong>JavaScript</strong>
@@ -120,6 +130,16 @@ export default function Listagem(){
                                 <div>
                                     <strong>Visual Studio Code</strong>
                                     <p className="text-xs font-light">Visual Studio Code é um editor de código rápido e de código aberto.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bg-zinc-800 p-5 rounded-lg hover:bg-[#D8FA00] hover:text-zinc-900 transition-colors duration-200">
+                            <div className="flex items-center gap-5">
+                                <img className="max-w-10 max-h-10 rounded-lg" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="" />
+                                <div>
+                                    <strong>Git</strong>
+                                    <p className="text-xs font-light">Git é um software de controle de versão distribuído, gratuito e de código aberto.</p>
                                 </div>
                             </div>
                         </div>
