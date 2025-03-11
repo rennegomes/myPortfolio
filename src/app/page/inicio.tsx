@@ -27,7 +27,7 @@ export default function Inicio(){
                 </div>
                 <div className="text-xl">
                     <strong>Destaque recente</strong>
-                    <QuadroProjetos titulo="Projeto X" descricao="Descrição Projeto X" imagem="https://github.com/rennegomes.png"/>
+                    <QuadroProjetos titulo="Memorize" descricao="Landing page para uma empresa especializada na administração de redes sociais." imagem="https://memorizelandingpage.netlify.app/LogoMemorize.png" link="/projetos/memorize"/>
                 </div>
 
                 <GuiaPaginas titulo="Projetos" icone="PencilSimple" subTitulo="Clique aqui e conheça meus projetos" fraseDoBotao="Conheça meus projetos" rota="/projetos"/>
