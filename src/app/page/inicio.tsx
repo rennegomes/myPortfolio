@@ -1,7 +1,10 @@
 import GuiaPaginas from "../components/guiaPaginas";
 import QuadroProjetos from "../components/quadroProjetos";
+import projetosJSON from "@/json/projetos.json"
 
 export default function Inicio(){
+    const projetoDestaque = projetosJSON[0];
+
     return(
         <div className="flex lg:mt-20 lg:mb-5 lg:mx-5 rounded-xl max-lg:m-4 max-lg:mb-14">
 
@@ -27,7 +30,7 @@ export default function Inicio(){
                 </div>
                 <div className="text-xl">
                     <strong>Destaque recente</strong>
-                    <QuadroProjetos titulo="Memorize" descricao="Landing page para uma empresa especializada na administração de redes sociais." imagem="https://memorizelandingpage.netlify.app/LogoMemorize.png" link="/projetos/memorize"/>
+                    <QuadroProjetos titulo={projetoDestaque.titulo} descricao={projetoDestaque.descricao} imagem={projetoDestaque.imagem} link={projetoDestaque.link} />
                 </div>
 
                 <GuiaPaginas titulo="Projetos" icone="PencilSimple" subTitulo="Clique aqui e conheça meus projetos" fraseDoBotao="Conheça meus projetos" rota="/projetos"/>

@@ -1,0 +1,14 @@
+[
+    {
+        "titulo": "Memorize",
+        "descricao": "Landing page para uma empresa especializada na administração de redes sociais.",
+        "imagem": "https://memorizelandingpage.netlify.app/LogoMemorize.png",
+        "link": "/projetos/memorize"
+    },
+    {
+        "titulo": "Suape Vantagens",
+        "descricao": "Aplicativo de fidelização e descontos construído como projeto acadêmico com parceria com o Porto de SUAPE.",
+        "imagem": "https://portilio-rene.netlify.app/src/SV.png",
+        "link": "/projetos/suape-vantagens"
+    }
+]

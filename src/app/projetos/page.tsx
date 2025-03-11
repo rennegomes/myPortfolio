@@ -1,5 +1,6 @@
 import GuiaPaginas from "../components/guiaPaginas";
 import QuadroProjetos from "../components/quadroProjetos";
+import projetosJSON from "@/json/projetos.json"
 
 
 export default function Projetos(){
@@ -10,8 +11,9 @@ export default function Projetos(){
                 <strong className="text-3xl">Projetos</strong>
                 <p className="text-zinc-400">Lista dos meus projetos:</p>
                 <div className="grid grid-cols-1 lg:grid-cols-2">
-                    <QuadroProjetos titulo="Memorize" descricao="Landing page para uma empresa especializada na administração de redes sociais." imagem="https://memorizelandingpage.netlify.app/LogoMemorize.png" link="/projetos/memorize"/>
-                    <QuadroProjetos titulo="Suape Vantagens" descricao="Aplicativo de fidelização e descontos construído como projeto acadêmico com parceria com o Porto de SUAPE." imagem="https://portilio-rene.netlify.app/src/SV.png" link="/projetos/suape-vantagens"/>
+                    {projetosJSON.map((projeto, index) => (
+                        <QuadroProjetos key={index} titulo={projeto.titulo} descricao={projeto.descricao} imagem={projeto.imagem} link={projeto.link} />
+                    ))}
                 </div>
                 
                 <GuiaPaginas titulo="Stack's" icone="Stack" subTitulo="Clique aqui e conheça minhas habilidades" fraseDoBotao="Conheça minha habilidades" rota="/stack"/>
