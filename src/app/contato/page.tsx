@@ -1,4 +1,4 @@
-import { EnvelopeSimple, GithubLogo, LinkedinLogo, Share } from "@phosphor-icons/react/dist/ssr";
+import { EnvelopeSimple, File, GithubLogo, LinkedinLogo, Share } from "@phosphor-icons/react/dist/ssr";
 
 export default function Contato(){
     return(
@@ -51,6 +51,17 @@ export default function Contato(){
                                     <EnvelopeSimple size={50} />
                                 </div>
                                 <p>E-mail</p>
+                                <div className="flex flex-1/3 justify-end">
+                                    <Share size={12} className="" />
+                                </div>
+                        </button>
+                    </a>
+                    <a href="#" target="_blank">
+                        <button className="flex flex-row w-full bg-zinc-950 gap-2 items-center rounded-lg p-2 cursor-pointer text-sm transition-colors duration-200 hover:bg-zinc-700">
+                            <div className="bg-[#D8FA00] text-zinc-950 p-1 rounded-lg">
+                                <File size={50} />
+                            </div>
+                                <p>Currículo</p>
                                 <div className="flex flex-1/3 justify-end">
                                     <Share size={12} className="" />
                                 </div>

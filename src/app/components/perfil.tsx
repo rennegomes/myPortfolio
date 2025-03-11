@@ -1,5 +1,5 @@
 "use client"
-import { LinkedinLogo, GithubLogo, File, Share } from "@phosphor-icons/react/dist/ssr";
+import { LinkedinLogo, GithubLogo, File, Share, EnvelopeSimple } from "@phosphor-icons/react/dist/ssr";
 
 
 
@@ -35,6 +35,15 @@ export default function Perfil(){
                             <button className="flex flex-row w-full gap-2 items-center rounded-lg p-2 cursor-pointer text-sm transition-colors duration-200 hover:bg-zinc-50 hover:text-zinc-900">
                                     <GithubLogo size={20} />
                                     <p>GitHub</p>
+                                    <div className="flex flex-1/3 justify-end">
+                                        <Share size={12} className="" />
+                                    </div>
+                            </button>
+                        </a>
+                        <a href="mailto:renne.lace082@gmail.com" target="_blank">
+                            <button className="flex flex-row w-full gap-2 items-center rounded-lg p-2 cursor-pointer text-sm transition-colors duration-200 hover:bg-zinc-50 hover:text-zinc-900">
+                                    <EnvelopeSimple size={20} />
+                                    <p>E-mail</p>
                                     <div className="flex flex-1/3 justify-end">
                                         <Share size={12} className="" />
                                     </div>
