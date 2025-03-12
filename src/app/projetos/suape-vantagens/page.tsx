@@ -26,7 +26,7 @@ export default function SuapeVantagens(){
                             <div className="grid grid-cols-1 items-center lg:grid-cols-2 gap-5 bg-zinc-950 text-zinc-50 p-5 rounded-lg">
                                 <div>
                                     <strong>Deploy, Repositório e Design</strong>
-                                    <p className="text-zinc-400">Vejá o site, o design e repositório no GitHub</p>
+                                    <p className="text-zinc-400 text-sm">Vejá o site, o design e repositório no GitHub</p>
                                 </div>
                                 <div className="flex gap-5 items-center justify-center">
                                     <a href={item.linkSite} target="_blank" className="flex gap-2 border p-2 rounded-lg text-sm transition-colors duration-200 hover:bg-[#D8FA00] hover:text-zinc-900">
@@ -45,10 +45,10 @@ export default function SuapeVantagens(){
                             </div>
                             <div className="bg-zinc-950 text-zinc-400 p-5 rounded-lg mt-5">
                                 <strong className="text-zinc-50">Tecnologias Utilizadas</strong>
-                                <p className="mt-2">Front-End: {item.frontEnd}</p>
-                                <p>Back-End: {item.backEnd}</p>
-                                <p>Bibliotecas: {item.bibliotecas}</p>
-                                <p>Ferramentas: {item.ferramentas}</p>
+                                <p className="mt-2 text-sm">Front-End: {item.frontEnd}</p>
+                                <p className="text-sm">Back-End: {item.backEnd}</p>
+                                <p className="text-sm">Bibliotecas: {item.bibliotecas}</p>
+                                <p className="text-sm">Ferramentas: {item.ferramentas}</p>
                             </div>
                         </div>
                     ))

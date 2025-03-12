@@ -5,6 +5,8 @@ import { LinkedinLogo, GithubLogo, File, Share, EnvelopeSimple } from "@phosphor
 
 export default function Perfil(){
 
+    const curriculo = "/curriculo.pdf";
+
     return(
         <div className="bg-zinc-950 rounded-xl text-zinc-300 max-lg:m-4 lg:w-[350px] lg:fixed lg:inset-5 lg:top-0 lg:mt-20 max-lg:hidden">
 
@@ -49,7 +51,7 @@ export default function Perfil(){
                                     </div>
                             </button>
                         </a>
-                        <a href="#" target="_blank">
+                        <a href={curriculo} target="_blank" rel="noopener noreferrer">
                             <button className="flex flex-row w-full gap-2 items-center rounded-lg p-2 cursor-pointer text-sm transition-colors duration-200 hover:bg-zinc-50 hover:text-zinc-900">
                                     <File size={20} />
                                     <p>Currículo</p>

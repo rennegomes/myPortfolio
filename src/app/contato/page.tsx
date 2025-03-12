@@ -56,7 +56,7 @@ export default function Contato(){
                                 </div>
                         </button>
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="/curriculo.pdf" target="_blank"  rel="noopener noreferrer">
                         <button className="flex flex-row w-full bg-zinc-950 gap-2 items-center rounded-lg p-2 cursor-pointer text-sm transition-colors duration-200 hover:bg-zinc-700">
                             <div className="bg-[#D8FA00] text-zinc-950 p-1 rounded-lg">
                                 <File size={50} />
