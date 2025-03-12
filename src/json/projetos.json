@@ -1,14 +1,30 @@
 [
     {
         "titulo": "Memorize",
-        "descricao": "Landing page para uma empresa especializada na administração de redes sociais.",
+        "descricao": "A landing page foi desenvolvida para uma empresa especializada na administração de redes sociais, com o objetivo de atrair novos clientes e apresentar os serviços de forma clara e objetiva. A plataforma foi construída utilizando as tecnologias mais modernas e eficientes para garantir uma experiência de usuário dinâmica e responsiva. Para o front-end, utilizamos Next.js e TypeScript, proporcionando um desempenho rápido e escalável, além de TailwindCSS para um design flexível e responsivo. A interface foi enriquecida com ícones personalizados, utilizando a biblioteca Phosphor Icons. No desenvolvimento, utilizamos ferramentas como Visual Studio Code para a programação, Figma para o design e Git para o controle de versão, garantindo um fluxo de trabalho colaborativo e eficiente. O back-end ainda está indefinido, com a possibilidade de integração futura dependendo das necessidades da empresa.",
         "imagem": "https://memorizelandingpage.netlify.app/LogoMemorize.png",
-        "link": "/projetos/memorize"
+        "data": "11/02/2025",
+        "link": "/projetos/memorize",
+        "linkSite": "https://memorizelandingpage.netlify.app/",
+        "linkRepositorio": "https://github.com/rennegomes/memorize",
+        "linkDesign": "https://www.figma.com/design/LCsDbOfi9GYQ0AA6hB9cGL/Memorize?node-id=0-1&m=dev&t=wwSWcnS18LPREBBv-1",
+        "frontEnd": "Next.js, TypeScript e TailwindCSS",
+        "backEnd": "Indefinido",
+        "bibliotecas": "Phosphor Icons",
+        "ferramentas": "Visual Studio Code, Figma e Git"
     },
     {
         "titulo": "Suape Vantagens",
-        "descricao": "Aplicativo de fidelização e descontos construído como projeto acadêmico com parceria com o Porto de SUAPE.",
+        "descricao": "Aplicativo de fidelização e descontos construído como projeto acadêmico com parceria com o Porto de SUAPE. Na idealização de uma plataforma que aprimorasse a conexão entre os trabalhadores do porto de Suape e região com os estabelecimentos locais, como clinicas, bares, lojas e restaurantes. Fizemos um aplicativo nativo, aplicando alguns recursos de serviços disponibilizados na região, Informações mais aprimoradas dos estabelecimentos e geração de cupons de descontos. Neste projeto utilizamos React Native, API do Google e consumo de informação diretamente de um banco de dados não relacional.",
         "imagem": "https://portilio-rene.netlify.app/src/SV.png",
-        "link": "/projetos/suape-vantagens"
+        "data": "17/06/2024",
+        "link": "/projetos/suape-vantagens",
+        "linkSite": "https://suapevantagens.netlify.app/",
+        "linkRepositorio": "https://github.com/rennegomes/suapeVantagens",
+        "linkDesign": "#",
+        "frontEnd": "React Native e JavaScript",
+        "backEnd": "Node.js, CloudNary e MongoDB",
+        "bibliotecas": "Google Fonts, API do Google Maps",
+        "ferramentas": "Visual Studio Code, Figma e Git"
     }
 ]
