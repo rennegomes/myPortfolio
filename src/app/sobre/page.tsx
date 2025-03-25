@@ -7,7 +7,7 @@ export default function Sobre(){
             <div className="max-w-[800px] m-auto w-full text-zinc-50 py-5">
 
                 <strong className="text-3xl">Sobre mim</strong>
-                <p className="text-zinc-400 mt-5">Sou um desenvolvedor front-end júnior apaixonado por criar soluções inovadoras e otimizadas para a web. Tenho experiência em desenvolvimento de interfaces intuitivas,
+                <p className="text-zinc-400 mt-5">Sou um desenvolvedor front-end apaixonado por criar soluções inovadoras e otimizadas para a web. Tenho experiência em desenvolvimento de interfaces intuitivas,
                     integração de APIs e criação de plataformas. Trabalho com tecnologias como Vue.js, React, JavaScript, Node.js e SQL, sempre focado em entregar código limpo e eficiente.</p>
 
                 <div className="bg-zinc-950 p-5 mt-5 rounded-xl">
@@ -16,34 +16,40 @@ export default function Sobre(){
                     </div>
                     <p className="font-bold mt-1">Centro Universitário Senac PE</p>
                     <p className="text-sm text-zinc-400">Ago de 2022 - Dez de 2024</p>
-                    <p className="text-xs text-zinc-400 mt-2">O Tecnólogo em Análise e Desenvolvimento de Sistemas é um curso superior que abrange áreas como
+                    <p className="text-sm text-zinc-400 mt-2">O Tecnólogo em Análise e Desenvolvimento de Sistemas é um curso superior que abrange áreas como
                         programação, bancos de dados, engenharia de software, segurança da informação e inteligência artificial. O profissional formado pode
                         atuar como desenvolvedor, analista de sistemas, arquiteto de software, entre outras funções, em diversos setores da tecnologia.</p>
                 </div>
                 
-                <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-5">
+                <div className="grid grid-cols-1 lg:gap-1">
                     
                     <div className="bg-zinc-950 p-5 mt-5 rounded-lg">
-                        <h1 className="font-semibold my-2">Experiências</h1>
-                        <p className="text-sm text-zinc-400">Iniciei minha trajetória profissional como <strong>Jovem Aprendiz na Liferay</strong>, atuando na área de marketing digital. Durante esse período,
-                             tive a oportunidade de trabalhar na criação de artes visuais para campanhas e na organização de documentos, desenvolvendo um olhar apurado para design e experiência do usuário. Foi nesse ambiente que conheci o mundo da programação, ao explorar ferramentas digitais e entender a importância da tecnologia na criação de interfaces interativas.  
-                            Com esse novo interesse, me aprofundei no desenvolvimento front-end, unindo meu conhecimento em design com a construção de interfaces mais funcionais. Isso me levou a uma experiência
-                             transformadora como <strong>estagiário fullstack no SENAI - Observatório da Indústria</strong>, onde trabalhei no desenvolvimento de <strong>componentes reutilizáveis em Vue.js</strong>, integração de APIs e
-                              manutenção de plataformas web. Durante o estágio, também participei de projetos que exigiram a criação de interfaces intuitivas e otimizadas para uma melhor experiência do usuário,
-                               alinhando as necessidades técnicas com as boas práticas de design.  
-                            Além disso, tive a oportunidade de aplicar meus conhecimentos na criação de um <strong>aplicativo de fidelização e descontos para o Porto de Suape</strong>, onde fui responsável pela construção
-                             da interface em <strong>React Native</strong> e pela configuração do back-end em <strong>Node.js</strong>, implementando funcionalidades como geolocalização, autenticação de usuários e geração de QR Codes.  
-                            Minha trajetória une a criatividade adquirida no marketing com a lógica da programação, permitindo-me desenvolver soluções eficientes que entregam uma experiência de usuário de alta
-                             qualidade e impactam diretamente os resultados dos projetos.</p>
+                        <h1 className="font-black text-xl my-2">Experiências</h1>
+                        <p className="text-sm text-zinc-400">
+                            <strong className="text-base">SENAI - Observatorio da Industria<br/>
+                            Fullstack Developer - Estágio, Recife | Abril de 2024 - Dezembro de 2024</strong><br/><br/>
+                            Atuei como desenvolvedor full stack em projetos de web aplicações e APIs, utilizando tecnologias como <strong>Vue.js, Quasar, Vite, SQL e Docker</strong>. Desenvolvi componentes reutilizáveis em <strong>JavaScript (Vue.js) e integrei APIs</strong> para comunicação entre serviços.
+                            Fui responsável pela <strong>criação de interfaces intuitivas (UX) e prototipagem no Figma</strong>, priorizando a <strong>usabilidade e a experiência do usuário</strong>. Participei do <strong>desenvolvimento e manutenção de plataformas web full-stack</strong>, aplicando controle de versão com <strong>Git</strong> e gerenciando rotas com <strong>Vue Router</strong>.
+                            Realizei a integração de sistemas com aplicativos da <strong>plataforma Azure (PowerBI Embedded)</strong> e trabalhei com metodologias ágeis como <strong>Kanban e SCRUM</strong>, utilizando o <strong>Jira</strong> para acompanhamento e gestão de tarefas.
+                        </p>
+                        <br/>
+                        <p className="text-sm text-zinc-400">
+                            <strong className="text-base">Liferay<br/>
+                            Jovem Aprendiz - Auxiliar de Marketing, Recife | Outubro de 2019 - Março de 2021</strong><br/><br/>
+                            Atuei no suporte à equipe de marketing, auxiliando na criação de <strong>artes visuais</strong> para campanhas digitais e na <strong>execução de tarefas operacionais, garantindo agilidade e eficiência nos processos</strong>.
+                            Fui responsável pela criação e manutenção de documentos e planilhas no <strong>Microsoft Word e Excel</strong>, além de atualizar informações no <strong>sistema de gestão</strong>, assegurando a <strong>precisão e a organização dos dados</strong>.
+                            Utilizei as ferramentas <strong>Jira e Trello</strong> para gestão e acompanhamento de tarefas, otimizando o fluxo de trabalho e a comunicação entre as equipes.
+                        </p>
                     </div>
 
                     <div className="bg-zinc-950 p-5 mt-5 rounded-lg">
-                        <h1 className="font-semibold my-2">Habilidades</h1>
-                        <p className="text-sm text-zinc-400">Tenho experiência no desenvolvimento de interfaces responsivas e intuitivas utilizando <strong>Vue.js</strong> e <strong>React</strong>, criando componentes reutilizáveis e aplicando <strong>Tailwind CSS </strong>
-                             para estilização eficiente. Minha atuação inclui a integração de APIs REST, consumindo e testando endpoints com <strong>Axios</strong> e <strong>Postman</strong>, além da implementação de autenticação e comunicação entre serviços com <strong>Node.js</strong>.  
-                            Possuo conhecimento em <strong>PostgreSQL</strong>, realizando consultas otimizadas e organizando dados para análise e monitoramento. No desenvolvimento web, utilizo <strong>JavaScript</strong> e <strong>TypeScript</strong> para criar aplicações escaláveis,
-                             além de ferramentas como <strong>Git e GitHub</strong> para versionamento e colaboração. Também tenho experiência com <strong>Next.js</strong>, aproveitando recursos como SSR e SSG para otimização de desempenho.  
-                            Sou um profissional <strong>proativo, organizado e colaborativo</strong>, sempre buscando aprimorar minhas habilidades e acompanhar as tendências do mercado para entregar soluções inovadoras e eficientes.</p>
+                        <h1 className="font-black text-xl my-2">Habilidades</h1>
+                        <p className="text-sm text-zinc-400">Tenho experiência no desenvolvimento de interfaces responsivas e intuitivas utilizando <strong>Vue.js</strong> (com Quasar e Vite) e <strong>React</strong>, criando componentes reutilizáveis e aplicando <strong>Tailwind CSS</strong> para estilização eficiente.
+                            Minha atuação inclui a integração de APIs REST, consumindo e testando endpoints com <strong>Axios</strong> e <strong>Postman</strong>, além da implementação de autenticação e comunicação entre serviços com <strong>Node.js</strong>.
+                            Possuo conhecimento em <strong>PostgreSQL</strong>, realizando consultas otimizadas, modelagem de dados e organização de informações para análise e monitoramento. Tenho experiência em controle de versionamento com <strong>Git</strong> e <strong>GitHub</strong>, garantindo a colaboração eficiente em equipes.
+                            No desenvolvimento web, utilizo <strong>JavaScript</strong> e <strong>TypeScript</strong> para criar aplicações escaláveis, incluindo projetos em <strong>Next.js</strong>, explorando recursos como SSR (Server-Side Rendering) e SSG (Static Site Generation) para otimização de desempenho.
+                            Além disso, integrei sistemas com a plataforma Azure (<strong>PowerBI Embedded</strong>), gerenciei tarefas com <strong>Jira</strong> e <strong>Trello</strong>, e desenvolvi soluções orientadas à experiência do usuário (UX), utilizando <strong>Figma</strong> para prototipagem e validação de interfaces.
+                            Sou um profissional <strong>proativo, organizado e colaborativo</strong>, com foco em aprimorar continuamente minhas habilidades e acompanhar as inovações tecnológicas para entregar soluções eficientes e inovadoras</p>
                     </div>
                 </div>
 
