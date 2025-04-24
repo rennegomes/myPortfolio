@@ -29,18 +29,43 @@ export default function SuapeVantagens(){
                                     <p className="text-zinc-400 text-sm">Vejá o site, o design e repositório no GitHub</p>
                                 </div>
                                 <div className="flex gap-5 items-center justify-center">
+                                    {item.linkSite ? (
                                     <a href={item.linkSite} target="_blank" className="flex gap-2 border p-2 rounded-lg text-sm transition-colors duration-200 hover:bg-[#D8FA00] hover:text-zinc-900">
                                         <Browsers size={22} />
                                         <p>Site</p>
                                     </a>
+                                    ) : (
+                                    <div className="flex gap-2 border p-2 rounded-lg text-sm text-gray-400 cursor-not-allowed">
+                                        <Browsers size={22} />
+                                        <p>Site</p>
+                                    </div>
+                                    )}
+                                    {item.linkRepositorio ? (
                                     <a href={item.linkRepositorio} target="_blank" className="flex gap-2 border p-2 rounded-lg text-sm transition-colors duration-200 hover:bg-[#D8FA00] hover:text-zinc-900">
                                         <Archive size={22} />
                                         <p>Repositório</p>
                                     </a>
-                                    <a href={item.linkDesign} target="_blank" className="flex gap-2 border p-2 rounded-lg text-sm transition-colors duration-200 hover:bg-[#D8FA00] hover:text-zinc-900">
+                                    ) : (
+                                    <div className="flex gap-2 border p-2 rounded-lg text-sm text-gray-400 cursor-not-allowed">
+                                        <Archive size={22} />
+                                        <p>Repositório</p>
+                                    </div>
+                                    )}
+                                    {item.linkDesign ? (
+                                    <a
+                                        href={item.linkDesign}
+                                        target="_blank"
+                                        className="flex gap-2 border p-2 rounded-lg text-sm transition-colors duration-200 hover:bg-[#D8FA00] hover:text-zinc-900"
+                                    >
                                         <PenNib size={22} />
                                         <p>Design</p>
                                     </a>
+                                    ) : (
+                                    <div className="flex gap-2 border p-2 rounded-lg text-sm text-gray-400 cursor-not-allowed">
+                                        <PenNib size={22} />
+                                        <p>Design</p>
+                                    </div>
+                                    )}
                                 </div>
                             </div>
                             <div className="bg-zinc-950 text-zinc-400 p-5 rounded-lg mt-5">

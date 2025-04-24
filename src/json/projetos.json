@@ -21,7 +21,7 @@
         "link": "/projetos/suape-vantagens",
         "linkSite": "https://suapevantagens.netlify.app/",
         "linkRepositorio": "https://github.com/rennegomes/suapeVantagens",
-        "linkDesign": "#",
+        "linkDesign": "",
         "frontEnd": "React Native e JavaScript",
         "backEnd": "Node.js, CloudNary e MongoDB",
         "bibliotecas": "Google Fonts, API do Google Maps",
